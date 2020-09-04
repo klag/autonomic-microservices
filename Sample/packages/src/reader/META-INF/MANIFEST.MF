@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+X-JOLIE-Main-Program: reader/reader.ol
+Created-By: 1.6.0_0 (Sun Microsystems Inc.)

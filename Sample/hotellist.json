@@ -1,0 +1,34 @@
+{
+    "hotel": [
+        {
+            "name": "SuperVino", 
+            "email": "info@superwine.hotel",
+            "address": "Strada provinciale del Sangiovese, 120 Bertinoro (FC) Italy",
+            "stars": 5,
+            "rooms":  {
+                "total": 10,
+                "available": 2
+            }
+        },
+        {
+            "name": "Gladiator", 
+            "email": "info@gladiator.hotel",
+            "address": "Via Appia, 120 Roma, Italy",
+            "stars": 4,
+            "rooms":  {
+                "total": 30,
+                "available": 10
+            }
+        },
+        {
+            "name": "SuperPizza", 
+            "email": "info@superpizza.hotel",
+            "address": "Via Quattro Formaggi, 10 Napoli (NA), Italy",
+            "stars": 5,
+            "rooms":  {
+                "total": 20,
+                "available": 1
+            }
+        }
+    ]
+}
