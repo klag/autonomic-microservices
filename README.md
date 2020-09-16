@@ -1,4 +1,4 @@
-# Toward Autonomic Microservices
+# Towards Autonomic Microservices
 This is the proof of concept related to the presentation "Towards Autonomic Microservices" given at the [Microservice Conference 2020](https://www.conf-micro.services/2020/program/) 
 
 ## Requirements
