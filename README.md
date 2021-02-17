@@ -1,3 +1,4 @@
+
 # Toward Autonomic Microservices
 This is the proof of concept related to the presentation ["Towards Autonomic Microservices"](https://www.conf-micro.services/2020/papers/paper_5.pdf) given at the [Microservice Conference 2020](https://www.conf-micro.services/2020/program/). The main idea of this example, is to show how an autonomic microservice approach could be achieved. There is not any intent to cover all the possible scenarios, just to point out that a microservice could negotiate some kind of actions with the executing environment, by its own. In particular, here the microservice application asks to the execution environment to scale one of its internal components. The microservice autonomously monitors the response time and, when a threshold is passed, it triggers a request for scaling to the execution environment.
 
