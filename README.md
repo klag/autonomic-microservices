@@ -65,6 +65,9 @@ In order to sending requests to the sample microservice, open a shell into folde
 ```
 jolie client_reader.ol 200
 ```
-where 200 is the number of requests sent to the sample microservice. The sample microservice simulate delays in the responses and will enable the deployment of new containers for its subservice `reader`. After 50 calls the delay simulator cut the delay simulating a well performing scenario and the sample service will remove the instantiated containers.
+where 200 is the number of requests sent to the sample microservice. The sample microservice simulate delays in the responses and will enable the deployment of new containers for its subservice `reader`. After 50 calls the delay simulator cut the delay simulating a well performing scenario and the sample service will remove the instantiated containers. It is possible to monitor the number of running containers for service reader using specific applications like Portainer, or using the following command in the console:
+```
+docker ps
+```
 
 
